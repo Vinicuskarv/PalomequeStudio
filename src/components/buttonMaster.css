@@ -1,0 +1,8 @@
+.buttonNormal{
+    background: linear-gradient(to right, #32A5AB, #003172);
+    color: rgb(252, 252, 252);
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 43px;
+}

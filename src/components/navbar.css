@@ -3,7 +3,9 @@
     padding: 5px;
     justify-content:space-between;
     position: absolute;
-    z-index: 7,
+    z-index: 1;
+    padding: 0 70px;
+    top: 10px;
 }
 .ULNavbar{
     display: flex;
@@ -14,8 +16,7 @@
 }
 .ULNavbar li a{
     text-decoration: none;
-    color: rgb(71, 61, 61);
-
+    color: rgb(255, 255, 255);
 }
 .LogoIcon{
     width: 50px;
