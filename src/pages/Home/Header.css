@@ -2,6 +2,10 @@
     font-family: 'cheque';
     src: url('../../components/fontes/Cheque-Regular.otf') format('OpenType');
 }
+@font-face {
+    font-family: 'cheque-bold';
+    src: url('../../components/fontes/Cheque-Black.otf') format('OpenType');
+}
 .ImgbackgroudTop{
     background-size: cover;
     width: 100%;
@@ -59,3 +63,21 @@
     position: relative;
     top: -2px;
 }
+.campoCarroselCards{
+    padding: 0;
+}
+.campoCarroselCards h2{
+    font-family: 'cheque-bold',sans-serif;
+    color: #33688A;
+    font-size: 41px;
+    text-align: center;
+    margin-top: 40px;
+}
+.campoCarroselCards h6{
+    color: #6B6A6A;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+}
+  

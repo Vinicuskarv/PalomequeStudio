@@ -1,11 +1,12 @@
 import ImgbackgroudTop from '../../components/HOMESite.png';
+import Overflow from '../../components/Overflow';
 import './Header.css';
 import ButtonMaster from '../../components/buttonMaster';
 import iconsCheck from '../../components/icons/icons8-instagram-check-mark-48.png';
 function Header() {
     return (
         <div className='containeImgBack'>
-            <img src={ImgbackgroudTop} className='ImgbackgroudTop' alt="Image the background" />
+            <img src={ImgbackgroudTop}  className='ImgbackgroudTop' alt="Image the background" />
             <div className='container-fluid ContainerInfoTop'>
               <div>
                 <h1>STUDIO<br/>PALOMEQUE</h1>
@@ -24,6 +25,12 @@ function Header() {
               <li><img src={iconsCheck} style={styles.icon} alt="icons Check"/>7+Certificados</li>
               <li><img src={iconsCheck} style={styles.icon} alt="icons Check"/>20+Areas de atuação</li>
             </ul>
+            <div className='container-fluid campoCarroselCards'>
+              <h2>Studio Palomeque</h2>
+              <h6>Principais Atividades</h6>
+              <Overflow/>
+            </div>
+            fxnxfnfnf
         </div>
     );
   }
