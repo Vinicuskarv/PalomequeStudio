@@ -2,10 +2,12 @@ import ImgbackgroudTop from '../../components/HOMESite.png';
 import Overflow from '../../components/Overflow';
 import './Header.css';
 import ButtonMaster from '../../components/buttonMaster';
+import FooterContain from '../../components/footerContain';
 import iconsCheck from '../../components/icons/icons8-instagram-check-mark-48.png';
-import MulherJanela from '../../components/img/mulher-janela.jpg'
+import MulherJanela from '../../components/img/mulher-janela.jpg';
 function Header() {
     return (
+      <>
         <div className='containeImgBack'>
             <img src={ImgbackgroudTop}  className='ImgbackgroudTop' alt="Image the background" />
             <div className='container-fluid ContainerInfoTop'>
@@ -41,12 +43,12 @@ function Header() {
                 <ButtonMaster
                   value= "Meu trabalho"
                 />
-               
               </div>
             </div>
-            
-           
+            <FooterContain/>
         </div>
+        
+      </>
     );
   }
   const styles = {

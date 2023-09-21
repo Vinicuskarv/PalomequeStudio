@@ -1,0 +1,20 @@
+.footerContain{
+    background: linear-gradient(to right, #32A5AB, #003172);
+    position: relative;
+    top: 200px;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.footerContain h4{
+    border-bottom: 1px solid white;
+    font-family: 'cheque', sans-serif;
+    font-size: 32px;
+    width: 380px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.campoIcons .Icon{
+    width: 30px;
+}
