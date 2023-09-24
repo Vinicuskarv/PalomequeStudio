@@ -5,6 +5,7 @@ import ButtonMaster from '../../components/buttonMaster';
 import FooterContain from '../../components/footerContain';
 import iconsCheck from '../../components/icons/icons8-instagram-check-mark-48.png';
 import MulherJanela from '../../components/img/mulher-janela.jpg';
+import ImgLogoBlue from "../../components/imgLogo/Logo-Blue.png"
 function Header() {
     return (
       <>
@@ -19,6 +20,7 @@ function Header() {
                 <p>Marcar seu horário é simples, e estamos entusiasmados para tornar sua experiência inesquecível.</p>
                 <ButtonMaster
                   value= "Reserve seu horário"
+                  nameclass= "buttonNormal"
                 />
               </div>
             </div>        
@@ -36,13 +38,23 @@ function Header() {
               </div>
               <div>
                 <img src={MulherJanela} className='ImgcontainerMulher' alt="icons Check"/>
+                <div className='containerMulherInfo'>
+                  <img src={ImgLogoBlue} className='LogoIconfooter'  alt="icons Check"/>
+                  <br/>
+                  <h3>Descubra mais sobre o<br/>que fazemos.</h3><br/>
+                  <ButtonMaster
+                  value= "Meu trabalho"
+                  nameclass= "buttonOutline"
+                  />
+                </div>
               </div>
               <div className='campofrase'>
                 <h3>"A única maneira de fazer um ótimo trabalho é<br/> amar o que você faz."</h3>
                 <p>- Steve Jobs</p>
                 <ButtonMaster
                   value= "Meu trabalho"
-                />
+                  nameclass= "buttonNormal"
+                  />
               </div>
             </div>
             <FooterContain/>

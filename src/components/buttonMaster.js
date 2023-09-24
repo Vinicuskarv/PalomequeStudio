@@ -2,7 +2,7 @@ import './buttonMaster.css';
 
 function ButtonMaster({value, nameclass }) {
     return (
-        <input className="buttonNormal" value={value}/>
+        <input type='button' className={nameclass} value={value}/>
     );
   }
   export default ButtonMaster;

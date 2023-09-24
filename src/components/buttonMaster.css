@@ -6,3 +6,32 @@
     border-radius: 8px;
     padding: 8px 43px;
 }
+
+.buttonNormal:hover{
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.562);
+
+}
+.buttonNormal:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.562);
+}
+.buttonOutline {
+    background: transparent;
+    
+    color: #33688A;
+    text-align: center;
+    border: 1px solid #33688A;
+    border-radius: 8px;
+    padding: 8px 43px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.buttonOutline:hover{
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.562);
+
+}
+.buttonOutline:active{
+    transform: translateY(4px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.562);
+}

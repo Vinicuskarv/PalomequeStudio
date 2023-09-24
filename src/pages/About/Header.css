@@ -1,0 +1,43 @@
+.CampoTop{
+    position: relative;
+    padding: 0 70px;
+    top: 100px;
+    height: 400px;
+    text-align: center;
+}
+.CampoTop h1{
+    font-family: 'cheque', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 83px;
+}
+.CampoTop p{
+    color: rgb(248, 248, 248);
+    font-size: 20px;
+    margin-left: 5px;
+}
+.CampoSection{
+    position: relative;
+    top: 150px;
+    z-index: 2;
+    padding: 150px 50px 50px 50px;
+    background-color: rgb(255, 255, 255);
+}
+.CampoSection h2{
+    font-family: 'cheque-bold',sans-serif;
+    color: black;
+    text-align: center;
+}
+.ContainerCondulta{
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    background-color: #AAA59D;
+    padding: 10px 30px 30px 30px;
+    color: rgb(231, 223, 223);
+    width: 1000px;
+    justify-content: space-around;
+    margin: auto;
+    margin: 10px;
+    left:50%;
+    transform: translate(-50%);
+}
