@@ -30,14 +30,46 @@
 .ContainerCondulta{
     position: absolute;
     display: flex;
-    z-index: 2;
+    z-index: 5;
     background-color: #AAA59D;
-    padding: 10px 30px 30px 30px;
-    color: rgb(231, 223, 223);
+    padding: 5px 30px 10px 30px;
+    color: rgb(239, 235, 235);
     width: 1000px;
     justify-content: space-around;
     margin: auto;
-    margin: 10px;
+    margin-top: 20px;
     left:50%;
     transform: translate(-50%);
+    border-radius: 7px;
+}
+.ContainerCondulta div{
+    margin-top: 10px;
+    width: 220px;
+    text-align: center;
+}
+.ContainerCondulta div img{
+    width: 50px;
+}
+@media screen and (max-width:1100px){
+    .ContainerCondulta{
+        width: 800px;
+    }
+}
+@media screen and (max-width:850px){
+    .ContainerCondulta{
+        width: 650px;
+    }
+    .ContainerCondulta div{
+        width: 200px;
+    }
+}
+@media screen and (max-width:680px){
+    .ContainerCondulta h5{
+        width: 600px;
+        font-size: 17px;
+    }
+    .ContainerCondulta div{
+        width: 200px;
+        font-size: 14px;
+    }
 }
