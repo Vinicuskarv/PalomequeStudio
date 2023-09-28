@@ -4,9 +4,13 @@ import './Header.css';
 import Icon1 from '../../components/icons/ethics.png';
 import Icon2 from '../../components/icons/quality.png';
 import Icon3 from '../../components/icons/icons8-handshake-64.png';
+import iconArrow from '../../components/icons/icons8-arrow-30.png';
+
 
 import ImgCera from '../../components/img/ServiceDepilacaoCera.jpg';
 import ImgLaser from '../../components/img/ServiceDepilacaoLaser.jpg';
+import ImgManicure from '../../components/img/ServiceManicure.jpg';
+import ImgSobrancelhas from '../../components/img/ServiceSobrancelhas.jpg';
 function Header() {
     return (
       <div>
@@ -48,20 +52,37 @@ function Header() {
         
         <div className='CampoSection'>
             <h2>Descubra o Seu Refúgio<br/>de Beleza e Bem-Estar</h2>
-            <div className='CampoHeaderInfo'>
-              <div className='campInfo'>
-                <img src={ImgCera} alt="Img Cera" />
-                <div>
-                  <h4>Depilação Profissional</h4>
-                  <p>Diga adeus aos pelos indesejados com a nossa depilação profissional a cera. Nossos especialistas experientes garantem uma experiência suave e eficaz, deixando sua pele irresistivelmente macia.</p>
-                </div>                
+            <div className='CampoHeaderInfo row'>
+              <div className="card col-sm-6">
+                <img src={ImgCera} className="card-img-top" alt="card-img"/>
+                <img src={iconArrow}  className='iconArrow' alt="icon Arrow"/>
+                <div className="card-body">
+                  <p className="card-title">Depilação Profissional</p>
+                </div>
               </div>
-              <div className='campInfo'>
-                <img src={ImgCera} alt="Img Cera" />
-                <div>
-                  <h4>Depilação Profissional</h4>
-                  <p>Diga adeus aos pelos indesejados com a nossa depilação profissional a cera. Nossos especialistas experientes garantem uma experiência suave e eficaz, deixando sua pele irresistivelmente macia.</p>
-                </div>                
+              <div className="card col-sm-6">
+                <img src={ImgLaser} className="card-img-top" alt="card-img"/>
+                <img src={iconArrow}  className='iconArrow' alt="icon Arrow"/>
+
+                <div className="card-body">
+                  <p className="card-title">Depilação a Laser Avançada</p>
+                </div>
+              </div>
+              <div className="card col-sm-6">
+                <img src={ImgManicure} className="card-img-top" alt="card-img"/>
+                <img src={iconArrow}  className='iconArrow' alt="icon Arrow"/>
+
+                <div className="card-body">
+                  <p className="card-title">Manicure e Pedicure de Luxo</p>
+                </div>
+              </div>
+              <div className="card col-sm-6">
+                <img src={ImgSobrancelhas} className="card-img-top" alt="card-img"/>
+                <img src={iconArrow}  className='iconArrow' alt="icon Arrow"/>
+
+                <div className="card-body">
+                  <p className="card-title">Sobrancelhas Perfeitas</p>
+                </div>
               </div>
             </div>
         </div>
