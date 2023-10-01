@@ -6,6 +6,7 @@ import Icon2 from '../../components/icons/quality.png';
 import Icon3 from '../../components/icons/icons8-handshake-64.png';
 import iconArrow from '../../components/icons/icons8-arrow-30.png';
 
+import Card from '../../components/card';
 
 import ImgCera from '../../components/img/ServiceDepilacaoCera.jpg';
 import ImgLaser from '../../components/img/ServiceDepilacaoLaser.jpg';
@@ -47,46 +48,36 @@ function Header() {
                   A ética é o farol que guia nossas decisões, orientando-nos na busca pelo que é correto e justo.
                 </p>
             </div>
-        </div>
+          </div>
         </div>
         
         <div className='CampoSection'>
-            <h2>Descubra o Seu Refúgio<br/>de Beleza e Bem-Estar</h2>
-            <div className='CampoHeaderInfo row'>
-              <div className="card col-sm-6">
-                <img src={ImgCera} className="card-img-top" alt="card-img"/>
-                <img src={iconArrow}  className='iconArrow' alt="icon Arrow"/>
-                <div className="card-body">
-                  <p className="card-title">Depilação Profissional</p>
-                </div>
-              </div>
-              <div className="card col-sm-6">
-                <img src={ImgLaser} className="card-img-top" alt="card-img"/>
-                <img src={iconArrow}  className='iconArrow' alt="icon Arrow"/>
-
-                <div className="card-body">
-                  <p className="card-title">Depilação a Laser Avançada</p>
-                </div>
-              </div>
-              <div className="card col-sm-6">
-                <img src={ImgManicure} className="card-img-top" alt="card-img"/>
-                <img src={iconArrow}  className='iconArrow' alt="icon Arrow"/>
-
-                <div className="card-body">
-                  <p className="card-title">Manicure e Pedicure de Luxo</p>
-                </div>
-              </div>
-              <div className="card col-sm-6">
-                <img src={ImgSobrancelhas} className="card-img-top" alt="card-img"/>
-                <img src={iconArrow}  className='iconArrow' alt="icon Arrow"/>
-
-                <div className="card-body">
-                  <p className="card-title">Sobrancelhas Perfeitas</p>
-                </div>
-              </div>
-            </div>
+          <h2>Descubra o Seu Refúgio<br/>de Beleza e Bem-Estar</h2>
+          <div className='CampoHeaderInfo row'>
+            <Card
+                Img = {ImgCera}
+                titulo = 'Depilação a Cera'
+            />
+            <Card
+                Img = {ImgLaser}
+                titulo = 'Depilação a Laser'
+            />
+            <Card
+                Img = {ImgManicure}
+                titulo = 'Manicure e Pedicure de Luxo'
+            />
+            <Card
+                Img = {ImgSobrancelhas}
+                titulo = 'Sobrancelhas Perfeitas'
+            />
+            
+          </div>
         </div>
       </div>
+      
     );
   }
+    <script>
+      dc
+    </script>
   export default Header;
