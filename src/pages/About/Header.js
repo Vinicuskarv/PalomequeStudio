@@ -57,18 +57,22 @@ function Header() {
             <Card
                 Img = {ImgCera}
                 titulo = 'Depilação a Cera'
+                texto = 'Reparação verniz em gel, unhas em gel manicure, Gel na tips'
             />
             <Card
                 Img = {ImgLaser}
                 titulo = 'Depilação a Laser'
+                texto = 'Reparação verniz em gel, unhas em gel manicure, Gel na tips'
             />
             <Card
                 Img = {ImgManicure}
                 titulo = 'Manicure e Pedicure de Luxo'
+                texto = 'Reparação verniz em gel, unhas em gel manicure, Gel na tips'
             />
             <Card
                 Img = {ImgSobrancelhas}
                 titulo = 'Sobrancelhas Perfeitas'
+                texto = 'Reparação verniz em gel, unhas em gel manicure, Gel na tips'
             />
             
           </div>

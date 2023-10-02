@@ -3,7 +3,7 @@ import iconArrow from '../components/icons/icons8-arrow-30.png';
 import React, { useRef, useEffect } from 'react';
 import './card.css';
 
-function Card({ Img, titulo}) {
+function Card({ Img, titulo, texto}) {
     const minhaDivRef = useRef(null);
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -42,7 +42,8 @@ function Card({ Img, titulo}) {
         <img src={Img} className="card-img-top" alt="card-img"/>
         <img src={iconArrow}  className='iconArrow' alt="icon Arrow"/>
         <div className="card-body">
-        <p className="card-title">{titulo}</p>
+          <p className="card-title">{titulo}</p>
+          <text classList="card-text">{texto}</text>
         </div>  
     </div>
   );
