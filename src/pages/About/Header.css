@@ -79,14 +79,104 @@
         width: 200px;
     }
 }
-@media screen and (max-width:680px){
+@media screen and (max-width:690px){
     .ContainerCondulta h5{
-        width: 600px;
+    
         font-size: 17px;
     }
     .ContainerCondulta div{
         width: 200px;
         font-size: 14px;
     }
+    .CampMulherInfo{
+        width: 100% !important;
+    }
 }
+@media screen and (max-width:667px){
+    .TabCondulta{
+        display: none;
+    }
 
+    .ContainerCondulta, .CampoCondulta{
+        padding: 7px;
+        width: 400px ;
+        border-radius: 0;
+        margin-top: 20px;
+        left:50%;
+        transform: translate(-50%);
+    }
+    .ContainerCondulta div{
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        font-size: 16px;
+    }
+    .CampoSection{
+        top:80px;
+        padding-top: 50px;
+    }
+    .ContainerCondulta div img{
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        margin: auto 5px;
+    }
+    .ContainerCondulta p{
+        display: none;
+    }
+    .CampoTop h1{
+        font-size: 50px;
+    }
+}
+.CampDirectionsServ{
+    position: relative;
+    background-image: url('../../components/img/Mulher-Ponte.jpg');
+    background-size: cover;
+    background-position:0 -220px;
+    height: 300px;
+    width: 100%;
+    top: 150px;
+}
+.CampMulherInfo{
+    z-index: 10;
+    background-color: #c6c6c6ab;
+    width: 390px;
+    height: 100%;
+    z-index: 0;
+    text-align: center;
+    padding: 50px;
+    padding-top: 20px;
+}
+@media screen and (min-width:1130px){
+    .CampDirectionsServ{
+        background-position:0 -345px;
+        height: 350px;
+    }
+}
+@media screen and (max-width:800px){
+    .CampDirectionsServ{
+        background-position:0 -160px;
+
+    }
+}
+@media screen and (max-width:710px){
+    .CampDirectionsServ{
+        background-position:center;
+
+    }
+}
+@media screen and (max-width:500px){
+    .CampoTop{
+        padding: 0 10px;
+    }
+    .CampoTop h1{
+        font-size: 45px;
+    }
+    .ContainerCondulta div p{
+        font-size: 14px !important;
+    }
+    .ULNavbar{
+        margin-left: 5px !important;
+        padding: 0;
+    }
+}

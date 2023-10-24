@@ -16,6 +16,9 @@
 .CampoHeaderInfo .card text{
     display: none;
 }
+.CampoHeaderInfo .card .buttonOutlelineCard{
+    display: none;
+}
 .CampoHeaderInfo .card-img-top{
     width: 100%;
     height: auto;
@@ -64,13 +67,14 @@
 }
 .centralizado {
     width: 18rem;
-    height: 50px;
+    height: 300px;
     padding: 0;
     border: none;
     border-radius: none;
     animation: BackAnimation 0.2s ease-in-out;
     margin-top: 20px;
     margin-right: 16px;
+    position: relative;
 }
 .centralizado .card-img-top{
     width: 18rem;
@@ -78,18 +82,24 @@
     animation: BackAnimationImg 1s ease-in-out;
 }
 .centralizado .card-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
     width: 18rem;
     height: 200px;
     background: linear-gradient(to right, #5DE0E6, #004AAD);
     animation: BackAnimationBody 1s ease-in-out;
-    
+    position: relative;
 }
 .centralizado .card-title{
     display: none;
 }
+.centralizado .buttonOutlelineCard{
+    animation: aparecer 3s ease-in-out;
+}
 .centralizado text{
     display: inline;
-    animation: BackAnimationText 3s ease-in-out;
+    animation: aparecer 3s ease-in-out;
     color: rgb(255, 255, 255);
 }
 @keyframes BackAnimationImg {
@@ -110,7 +120,7 @@
         height: 200px;
     }
 }
-@keyframes BackAnimationText {
+@keyframes aparecer {
     0% {
         opacity: 0;
     }

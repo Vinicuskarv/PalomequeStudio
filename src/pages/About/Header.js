@@ -4,7 +4,7 @@ import './Header.css';
 import Icon1 from '../../components/icons/ethics.png';
 import Icon2 from '../../components/icons/quality.png';
 import Icon3 from '../../components/icons/icons8-handshake-64.png';
-import iconArrow from '../../components/icons/icons8-arrow-30.png';
+import ImgBlueLogo from '../../components/imgLogo/Logo-Blue.png';
 
 import Card from '../../components/card';
 
@@ -12,6 +12,8 @@ import ImgCera from '../../components/img/ServiceDepilacaoCera.jpg';
 import ImgLaser from '../../components/img/ServiceDepilacaoLaser.jpg';
 import ImgManicure from '../../components/img/ServiceManicure.jpg';
 import ImgSobrancelhas from '../../components/img/ServiceSobrancelhas.jpg';
+import ImgMulherPonte from '../../components/img/Mulher-Ponte.jpg';
+
 function Header() {
     return (
       <div>
@@ -20,9 +22,9 @@ function Header() {
             <h1>STUDIO<br/>PALOMEQUE</h1>
             <p>Studio de estetica</p>
             <ButtonMaster
-                  value= "Marcação"
-                  nameclass= "buttonNormal"
-                />
+              value= "Marcação"
+              nameclass= "buttonNormal"
+            />
         </div>
         <div className='CampoCondulta'>
           <div className='TabCondulta'></div>
@@ -77,11 +79,31 @@ function Header() {
             
           </div>
         </div>
+        <div>
+        <div className='CampDirectionsServ'>
+          <div className='CampMulherInfo'>
+            <img src={ImgBlueLogo} className='LogoIconfooter'  alt="icons Check"/>
+            <br/>
+            <h3>Descubra mais sobre o<br/>que fazemos.</h3><br/>
+            <ButtonMaster
+            value= "Meu trabalho"
+            nameclass= "buttonOutline"
+            />
+          </div>
+          
+        </div>
+      </div>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/><br/>
+          <br/>
+          <br/>
       </div>
       
     );
   }
-    <script>
-      dc
-    </script>
-  export default Header;
+
+export default Header;

@@ -21,3 +21,8 @@
 .LogoIcon{
     width: 50px;
 }
+@media screen and (max-width:500px){
+    #CampoNavbar{
+        padding: 5px;
+    }
+}

@@ -1,4 +1,5 @@
 import iconArrow from '../components/icons/icons8-arrow-30.png';
+import ButtonMaster from './buttonMaster';
 
 import React, { useRef, useEffect } from 'react';
 import './card.css';
@@ -44,6 +45,10 @@ function Card({ Img, titulo, texto}) {
         <div className="card-body">
           <p className="card-title">{titulo}</p>
           <text classList="card-text">{texto}</text>
+          <ButtonMaster
+            value= "Marcação"
+            nameclass= "buttonOutlelineCard"
+          />
         </div>  
     </div>
   );
