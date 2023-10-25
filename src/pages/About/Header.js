@@ -7,6 +7,7 @@ import Icon3 from '../../components/icons/icons8-handshake-64.png';
 import ImgBlueLogo from '../../components/imgLogo/Logo-Blue.png';
 
 import Card from '../../components/card';
+import FooterContain from '../../components/footerContain';
 
 import ImgCera from '../../components/img/ServiceDepilacaoCera.jpg';
 import ImgLaser from '../../components/img/ServiceDepilacaoLaser.jpg';
@@ -79,7 +80,7 @@ function Header() {
             
           </div>
         </div>
-        <div>
+        
         <div className='CampDirectionsServ'>
           <div className='CampMulherInfo'>
             <img src={ImgBlueLogo} className='LogoIconfooter'  alt="icons Check"/>
@@ -90,17 +91,16 @@ function Header() {
             nameclass= "buttonOutline"
             />
           </div>
-          
         </div>
-      </div>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/><br/>
-          <br/>
-          <br/>
+          <div className='Campfrase'>
+            <h3>"Não espere por circunstâncias ideais, faça<br/> acontecer com as circunstâncias que você tem." </h3>
+            <p>- Bruce Lee</p>
+            <ButtonMaster
+              value= "Meu trabalho"
+              nameclass= "buttonNormal"
+              />
+          </div>
+          <FooterContain/>
       </div>
       
     );

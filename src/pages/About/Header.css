@@ -66,6 +66,15 @@
     z-index: 3;
     margin-top: 40px;
 }
+.Campfrase{
+    text-align: center;
+    padding: 50px 50px 0 50px;
+    top: 150px;
+    position: relative;
+}
+.Campfrase h3{
+    font-family: 'Averia Sans Libre', sans-serif;
+}
 @media screen and (max-width:1100px){
     .ContainerCondulta,.CampoCondulta{
         width: 800px;
