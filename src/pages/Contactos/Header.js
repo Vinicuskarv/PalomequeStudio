@@ -2,6 +2,14 @@ import ImgbackgroudTop from '../../components/HOMESite.png';
 import ButtonMaster from '../../components/buttonMaster';
 import './Header.css';
 
+import addressIcon from "../../components/icons/icons8-address-50.png";
+import emailIcon from "../../components/icons/icons8-email-50.png";
+import facebookIcon from "../../components/icons/icons8-facebook-50.png";
+import instagramIcon from "../../components/icons/icons8-instagram-50.png";
+import phoneIcon from "../../components/icons/icons8-phone-50.png";
+
+import { Link } from 'react-router-dom';
+
 function Header() {
     return (
         <div className='containeBackImg'>
@@ -22,9 +30,34 @@ function Header() {
                 <div className='TabContacto'></div>
                 <div className='CampoContacto'>
                     <h2>CONTACTOS</h2>
-                    <div>
-                        
+                    <div  className='row CampoContactoInfo'>
+                        <div className='col-6'>
+                            <Link to="/" className='IconLink'><img className="Icon" src={phoneIcon} alt="Phone Icon"/></Link>
+                            <label>+351 914 543 091</label>
+                        </div>
+                        <div className='col-6'>
+                            <Link to="/" className='IconLink'><img className="Icon" src={facebookIcon} alt="Facebook Icon"/></Link>
+                            <label>@studiopalomeque</label>
+                        </div>
+                        <div className='col-6'>
+                            <Link to="/" className='IconLink'><img className="Icon" src={emailIcon} alt="Email Icon"/></Link>
+                            <label>studiopalomeque@gmai.coml</label>
+                        </div>
+                        <div className='col-6'>
+                            <Link to="/" className='IconLink'><img className="Icon" src={instagramIcon} alt="Instagram Icon"/></Link>
+                            <label>@studiopalomeque</label>
+                        </div>
+                        <div className='col-12'>
+                            <Link to="/" className='IconLink'><img className="Icon" src={addressIcon} alt="Address Icon"/></Link>
+                            <label>R. do Século 54 Loja, 4490-582 Póvoa de Varzim</label>
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div className='row ContaineMap'>
+                <div className='col-8'>MAP</div>
+                <div className='col-4 CampMapInfo'>
+                    <h2>hello</h2>
                 </div>
             </div>
         </div>
