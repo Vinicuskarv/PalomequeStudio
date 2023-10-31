@@ -13,7 +13,7 @@ import ImgCera from '../../components/img/ServiceDepilacaoCera.jpg';
 import ImgLaser from '../../components/img/ServiceDepilacaoLaser.jpg';
 import ImgManicure from '../../components/img/ServiceManicure.jpg';
 import ImgSobrancelhas from '../../components/img/ServiceSobrancelhas.jpg';
-import ImgMulherPonte from '../../components/img/Mulher-Ponte.jpg';
+
 
 function Header() {
     return (
@@ -87,8 +87,8 @@ function Header() {
             <br/>
             <h3>Descubra mais sobre o<br/>que fazemos.</h3><br/>
             <ButtonMaster
-            value= "Meu trabalho"
-            nameclass= "buttonOutline"
+              value= "Meu trabalho"
+              nameclass= "buttonOutline"
             />
           </div>
         </div>
@@ -98,7 +98,7 @@ function Header() {
             <ButtonMaster
               value= "Meu trabalho"
               nameclass= "buttonNormal"
-              />
+            />
           </div>
           <FooterContain/>
       </div>

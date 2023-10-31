@@ -1,6 +1,9 @@
 import ImgbackgroudTop from '../../components/HOMESite.png';
 import ButtonMaster from '../../components/buttonMaster';
+import ImgLogoW from '../../components/imgLogo/Logo-white.png';
 import './Header.css';
+
+import MapComponent from '../../components/MapComponent.js';
 
 import addressIcon from "../../components/icons/icons8-address-50.png";
 import emailIcon from "../../components/icons/icons8-email-50.png";
@@ -55,9 +58,17 @@ function Header() {
                 </div>
             </div>
             <div className='row ContaineMap'>
-                <div className='col-8'>MAP</div>
+                <div className='col-8'>
+                    <MapComponent/>
+                </div>
                 <div className='col-4 CampMapInfo'>
-                    <h2>hello</h2>
+                    <img src={ImgLogoW} className='LogoImgMap' alt="Img Logo W"/>
+  
+                    <h5>Descubra mais sobre o que fazemos.</h5>
+                    <ButtonMaster
+                        value= "Localização"
+                        nameclass= "buttonOutline"
+                    />
                 </div>
             </div>
         </div>
