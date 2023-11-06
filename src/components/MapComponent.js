@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+import imghome from '../components/icons/placeholder.png';
+import imgArron from '../components/icons/alfinete.png';
+
 
 class MapComponent extends Component {
   constructor() {
@@ -19,30 +22,44 @@ class MapComponent extends Component {
 
   setupMap = () => {
     const { latitude, longitude } = this.state;
-
-    if (latitude !== null && longitude !== null) {
+  
+    if (latitude !== null && longitude !== null && this.map === null) {
       this.map = L.map('mapid').setView([latitude, longitude], 15);
-
+  
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(this.map);
-
-      L.marker([latitude, longitude])
+  
+      
+      const customIcon = L.icon({
+        iconUrl: [imgArron],
+        iconSize: [32, 32],
+        iconAnchor: [16, 32], 
+      });
+  
+      L.marker([latitude, longitude], { icon: customIcon })
         .addTo(this.map)
         .bindPopup('Estou aqui!')
         .openPopup();
-
-      L.marker([41.39560596361315, -8.773997373124802])
+  
+      const officeIcon = L.icon({
+        iconUrl: [imghome],
+        iconSize: [32, 32],
+        iconAnchor: [16, 32], 
+      });
+  
+      L.marker([41.375146686180415, -8.760214470085726], { icon: officeIcon })
         .addTo(this.map)
-        .bindPopup('Escritorio')
+        .bindPopup('Studio Palomeque')
         .openPopup();
-
+  
       const latlngs = [
-        [41.39560596361315, -8.773997373124802],
+        [41.375146686180415, -8.760214470085726],
         [latitude, longitude]
       ];
-
-      L.polyline(latlngs, { color: 'red' }).addTo(this.map);
+  
+      L.polyline(latlngs, { color: 'Blue' }).addTo(this.map);
     }
   };
+  
 
   getLocation() {
     if (navigator.geolocation) {
@@ -64,7 +81,7 @@ class MapComponent extends Component {
   };
 
   render() {
-    return <div id="mapid" style={{ height: '400px' }}></div>;
+    return <div id="mapid" style={{ height: '100%', width:'102%' }}></div>;
   }
 }
 

@@ -125,3 +125,40 @@
 .LogoImgMap{
     width: 100px;
 }
+.CampPerguntas{
+    position: relative;
+    top: 480px;
+    padding: 50px 0;
+    text-align: center;
+    z-index: 10;
+}
+.CampPerguntas h2{
+    font-family: 'cheque-bold', sans-serif;
+}
+.CampoIntePerguntas{
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    border-radius: 15px;
+    background-color: #E6E6E6;
+    text-align: left;
+}
+.CampoIntePerguntas p{
+    margin: 8px 12px;
+}
+.ButtonArron img{
+    margin: 8px 15px;
+    width: 28px;
+}
+#topPergunta{
+    border-top: none !important;
+}
+.areaPergunta{
+    border-top: 1px solid rgba(0, 0, 0, 0.418);
+    display: flex;
+    justify-content: space-between;
+}
+.areaPergunta p{
+    font-size: 18px;
+}
+.collapseResposta{
+    border-top: 1px solid rgba(0, 0, 0, 0.418);
+}
