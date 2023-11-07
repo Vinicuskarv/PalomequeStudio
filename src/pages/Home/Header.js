@@ -59,7 +59,6 @@ function Header() {
             </div>
             <FooterContain/>
         </div>
-        
       </>
     );
   }

@@ -9,8 +9,8 @@
 }
 .ULNavbar{
     display: flex;
-    justify-content:space-between;
-    width: 400px;
+    justify-content:space-around;
+    min-width: 370px;
     list-style: none;
     margin-top: auto;
 }
@@ -21,8 +21,13 @@
 .LogoIcon{
     width: 50px;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
     #CampoNavbar{
-        padding: 5px;
+        padding: 5px; 
+        display: inline;
+        text-align: center;
+    }
+    .ULNavbar{
+        min-width: 300px;
     }
 }
