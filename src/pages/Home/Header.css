@@ -48,6 +48,45 @@
         top: 0;
     }
 }
+@media screen and (max-width:650px){
+    .ContainerInfoTop h1{
+        font-size: 55px !important;
+    }
+    .ContainerInfoTop p{
+        font-size: 15px !important;
+    }
+    .campoInfoEsperienc li{
+        display: none !important;
+    }
+    .campoCarroselCards h2{
+        font-size: 35px !important;
+    }
+}
+@media screen and (max-width:480px){
+    .ContainerInfoTop{
+        padding: 0 40px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+    }
+    .ContainerInfoTop h1{
+        font-size: 40px !important;
+    }
+    .ImgbackgroudTop{
+        height: 550px !important;
+    }
+    .containerSecudary{
+        top: 150px !important;
+    }
+    .campoCarroselCards h2{
+        font-size: 30px !important;
+    }
+    .campoCarroselCards h6{
+        font-size: 16px !important;
+    }
+    
+}
 .ContainerInfoTop h1{
     font-family: 'cheque', sans-serif;
     color: rgb(255, 255, 255);
