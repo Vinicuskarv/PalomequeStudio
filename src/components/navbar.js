@@ -2,19 +2,19 @@ import "./navbar.css";
 import ImgLogoWhite from "../components/imgLogo/Logo-white.png"
 import { Link } from 'react-router-dom';
 
-function NavBar() {
+function NavBar({home, sobre, contactos}) {
     return (
       <div className="container-fluid" id="CampoNavbar">
             <Link to="/"><img className="LogoIcon" src={ImgLogoWhite} alt="Logo White"/></Link>
             <ul className="ULNavbar">
                 <li>
-                  <Link to="/">Home</Link> 
+                  <Link to="/">{home}</Link> 
                 </li>
                 <li>
-                  <Link to="/About">Sobre</Link> 
+                  <Link to="/About">{sobre}</Link> 
                 </li>
                 <li>
-                  <Link to="/Contactos">Contactos</Link> 
+                  <Link to="/Contactos">{contactos}</Link> 
                 </li>
                 <li>
                   <Link to="/Contact">Marcação</Link> 

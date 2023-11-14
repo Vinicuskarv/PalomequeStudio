@@ -5,7 +5,10 @@ import Header from './Header';
 function Contact() {
     return (
       <div>
-        <NavBar/>
+        <NavBar
+          home="Home"
+          sobre="Sobre"
+          contactos="- Contactos"/>
         <Header/>
       </div>
     );

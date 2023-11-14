@@ -4,7 +4,10 @@ import Header from './Header';
 function Home() {
     return (
       <div>
-        <NavBar/>
+        <NavBar
+        home="- Home"
+        sobre="Sobre"
+        contactos="Contactos"/>
         <Header/>
       </div>
     );

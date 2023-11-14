@@ -172,6 +172,11 @@
         width: 400px;
     }
 }
+@media screen and (max-width:650px){
+    .containerMulherInfo{
+        top: 600px;
+    }
+}
 @media screen and (max-width:850px){
     .containerMulherInfo{
         width: 380px;
@@ -179,22 +184,30 @@
 }
 @media screen and (max-width: 700px){
     .ImgcontainerMulher{
-        height: 550px;
+        height: 600px;
+    }
+    .containerMulherInfo{
+        width: 100%;
     }
 }
 @media screen and (max-width:535px){
-    .containerMulherInfo{
-        padding-top: 50px;
-        width: 100%;
-        height: 380px;
-    }
     .ImgcontainerMulher{
-        height: 510px;
+        height: 550px;
+    }
+    .containerMulherInfo h3{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:480px){
+    .containerMulherInfo{
+        top: 530px;
     }
 }
 @media screen and (max-width:435px){
     .containerMulherInfo{
-        top: 700px;
-        padding-top: 30px;
+        padding-top: 60px;
+    }
+    .campofrase h3{
+        font-size: 16px;
     }
 }

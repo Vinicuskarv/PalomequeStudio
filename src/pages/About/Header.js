@@ -38,17 +38,17 @@ function Header() {
                 </p>
             </div>
             <div>
-                <img src={Icon2} alt="Icons" />
-                <h5>CREDIBILIDADE</h5>
-                <p>
-                  A credibilidade é um ativo valioso, conquistado com integridade e consistência ao longo do tempo
-                </p>
-            </div>
-            <div>
                 <img src={Icon1} alt="Icons" />
                 <h5>ÉTICA</h5>
                 <p>
                   A ética é o farol que guia nossas decisões, orientando-nos na busca pelo que é correto e justo.
+                </p>
+            </div>
+            <div>
+                <img src={Icon2} alt="Icons" />
+                <h5>CREDIBILIDADE</h5>
+                <p>
+                  A credibilidade é um ativo valioso, conquistado com integridade e consistência ao longo do tempo
                 </p>
             </div>
           </div>

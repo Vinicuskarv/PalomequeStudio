@@ -87,6 +87,9 @@
     .ContainerCondulta div{
         width: 200px;
     }
+    .CampoSection{
+        padding: 170px 20px 20px 50px;
+    }
 }
 @media screen and (max-width:690px){
     .ContainerCondulta h5{
@@ -100,6 +103,9 @@
     .CampMulherInfo{
         width: 100% !important;
     }
+    .CampoTop h1{
+        margin-top: 50px;
+    }
 }
 @media screen and (max-width:667px){
     .TabCondulta{
@@ -108,7 +114,7 @@
 
     .ContainerCondulta, .CampoCondulta{
         padding: 7px;
-        width: 400px ;
+        width: 100% ;
         border-radius: 0;
         margin-top: 20px;
         left:50%;
@@ -119,6 +125,7 @@
         justify-content: center;
         margin-top: 0;
         font-size: 16px;
+        
     }
     .CampoSection{
         top:80px;
@@ -181,8 +188,8 @@
     .CampoTop h1{
         font-size: 45px;
     }
-    .ContainerCondulta div p{
-        font-size: 14px !important;
+    .ContainerCondulta div h5{
+        display: none;
     }
     .ULNavbar{
         margin-left: 5px !important;
