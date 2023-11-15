@@ -39,7 +39,7 @@ function Card({ Img, titulo, texto}) {
         event.stopPropagation();
       };
   return (
-    <div className="card col-sm-6"  ref={minhaDivRef} onClick={AbrirDivInfo}>
+    <div className="card col"  ref={minhaDivRef} onClick={AbrirDivInfo}>
         <img src={Img} className="card-img-top" alt="card-img"/>
         <img src={iconArrow}  className='iconArrow' alt="icon Arrow"/>
         <div className="card-body">

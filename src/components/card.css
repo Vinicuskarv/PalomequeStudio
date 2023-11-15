@@ -138,4 +138,98 @@
         border-radius: none;
         margin-top: 20px;
     }
+    .CampoHeaderInfo .iconArrow{
+        top: 110px;
+    }
+    .centralizado .card-body{
+        width: 17rem;
+        height: 150px;
+        animation: BackAnimationBody 1s ease-in-out;
+    }
+    .centralizado{
+        width: 17rem;
+        height: 200px;
+    }
+    .centralizado .card-img-top{
+        width: 17rem;
+        animation: BackAnimationImg 1s ease-in-out;
+    }
+    @keyframes BackAnimationBody {
+        0% {
+            height: 55px;
+        }
+        100% {
+            height: 150px;
+        }
+    }
+    @keyframes BackAnimationImg {
+        0% {
+            opacity: 30%;
+            height: 195px;
+        }
+        100% {
+            opacity: 100%;
+            height: 100px;
+        }
+    }
+}
+@media screen and (max-width:640px){
+    .CampoHeaderInfo .card{
+        width: 10rem;
+        height: 150px;
+        padding: 0;
+        border: none;
+        border-radius: none;
+        margin-top: 20px;
+    }
+    .CampoHeaderInfo .iconArrow{
+        top: 70px;
+        left: 55px;
+    }
+    .CampoHeaderInfo .card:hover .iconArrow {
+        animation: iconArrow-in 0.3s ease-in-out;
+    }
+    @keyframes iconArrow-in {
+        0% {
+            opacity: 0%;
+            left: 35px;
+        }
+        100% {
+            opacity: 100%;
+            left: 55px;
+        }
+    }
+    .centralizado .card-body{
+        width: 10rem;
+        height: 105px;
+        animation: BackAnimationBody 1s ease-in-out;
+    }
+    .centralizado{
+        width: 10rem;
+        height: 110px;
+    }
+    .centralizado .card-img-top{
+        width: 10rem;
+        height: 45px;
+
+        animation: BackAnimationImg 1s ease-in-out;
+    }
+    @keyframes BackAnimationBody {
+        0% {
+            height: 55px;
+        }
+        100% {
+            height: 150px;
+        }
+    }
+    @keyframes BackAnimationImg {
+        0% {
+            opacity: 30%;
+            height: 150px;
+        }
+        100% {
+            opacity: 100%;
+            height: 10px;
+        }
+    }
 }
