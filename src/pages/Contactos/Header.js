@@ -37,34 +37,35 @@ function Header() {
                 <div className='CampoContacto'>
                     <h2>CONTACTOS</h2>
                     <div  className='row CampoContactoInfo'>
-                        <div className='col-6'>
+                        <div className='col-md-6 col-12'>
                             <Link to="/" className='IconLink'><img className="Icon" src={phoneIcon} alt="Phone Icon"/></Link>
                             <label>+351 914 543 091</label>
                         </div>
-                        <div className='col-6'>
+                        <div className='col-md-6 col-12'>
                             <Link to="/" className='IconLink'><img className="Icon" src={facebookIcon} alt="Facebook Icon"/></Link>
                             <label>@studiopalomeque</label>
                         </div>
-                        <div className='col-6'>
-                            <Link to="/" className='IconLink'><img className="Icon" src={emailIcon} alt="Email Icon"/></Link>
-                            <label>studiopalomeque@gmai.coml</label>
-                        </div>
-                        <div className='col-6'>
+                        
+                        <div className='col-md-6 col-12'>
                             <Link to="/" className='IconLink'><img className="Icon" src={instagramIcon} alt="Instagram Icon"/></Link>
                             <label>@studiopalomeque</label>
                         </div>
+                        <div className='col-md-6 col-12'>
+                            <Link to="/" className='IconLink'><img className="Icon" src={emailIcon} alt="Email Icon"/></Link>
+                            <label>studiopalomeque@gmai.coml</label>
+                        </div>
                         <div className='col-12'>
                             <Link to="/" className='IconLink'><img className="Icon" src={addressIcon} alt="Address Icon"/></Link>
-                            <label>R. do Século 54 Loja, 4490-582 Póvoa de Varzim</label>
+                            <label>R. do Século 54 Loja, 4490-582 <span>Póvoa de Varzim</span></label>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='row ContaineMap'>
-                <div className='col-8'>
+                <div className='col-md-8 col-12'>
                     <MapComponent/>
                 </div>
-                <div className='col-4 CampMapInfo'>
+                <div className='col-md-4 col-12 CampMapInfo'>
                     <img src={ImgLogoW} className='LogoImgMap' alt="Img Logo W"/>
   
                     <h5>Descubra mais sobre o que fazemos.</h5>

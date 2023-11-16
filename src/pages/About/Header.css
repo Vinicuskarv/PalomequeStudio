@@ -195,4 +195,9 @@
         margin-left: 5px !important;
         padding: 0;
     }
+    .CampoSection{
+        top:80px;
+        padding: 50px 10px 0 10px;
+
+    }
 }

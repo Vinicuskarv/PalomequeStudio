@@ -76,6 +76,8 @@
     margin-top: 20px;
     margin-right: 16px;
     position: relative;
+    flex: 0 0 auto;
+
 }
 .centralizado .card-img-top{
     width: 18rem;
@@ -149,6 +151,7 @@
     .centralizado{
         width: 17rem;
         height: 200px;
+        flex: 0 0 auto;
     }
     .centralizado .card-img-top{
         width: 17rem;
@@ -175,16 +178,18 @@
 }
 @media screen and (max-width:640px){
     .CampoHeaderInfo .card{
-        width: 10rem;
-        height: 150px;
+        width: 10rem !important;
+        height: 150px !important;
         padding: 0;
         border: none;
         border-radius: none;
         margin-top: 20px;
     }
     .CampoHeaderInfo .iconArrow{
-        top: 70px;
-        left: 55px;
+        width: 30px;
+        height: 30px;
+        top: 75px;
+        left: 70px;
     }
     .CampoHeaderInfo .card:hover .iconArrow {
         animation: iconArrow-in 0.3s ease-in-out;
@@ -192,11 +197,11 @@
     @keyframes iconArrow-in {
         0% {
             opacity: 0%;
-            left: 35px;
+            left: 60px;
         }
         100% {
             opacity: 100%;
-            left: 55px;
+            left: 70px;
         }
     }
     .centralizado .card-body{
@@ -208,10 +213,76 @@
         width: 10rem;
         height: 110px;
     }
+    .centralizado text{
+        font-size: 13px;
+    }
     .centralizado .card-img-top{
         width: 10rem;
         height: 45px;
-
+        animation: BackAnimationImg 1s ease-in-out;
+    }
+    @keyframes BackAnimationBody {
+        0% {
+            height: 0px;
+        }
+        100% {
+            height: 105px;
+        }
+    }
+    @keyframes BackAnimationImg {
+        0% {
+            opacity: 30%;
+            height: 125px;
+        }
+        100% {
+            opacity: 100%;
+            height: 45px;
+        }
+    }
+}
+@media screen and (max-width:440px){
+    .CampoHeaderInfo .card{
+        width: 17rem !important;
+        height: 250px !important;
+        padding: 0;
+        border: none;
+        border-radius: none;
+        margin: 10px 0 0 0;
+    }
+    .CampoHeaderInfo .iconArrow{
+        width: 45px;
+        height: 45px;
+        top: 110px;
+        left: 120px;
+    }
+    .CampoHeaderInfo .card:hover .iconArrow {
+        animation: iconArrow-in 0.3s ease-in-out;
+    }
+    @keyframes iconArrow-in {
+        0% {
+            opacity: 0%;
+            left: 100px;
+        }
+        100% {
+            opacity: 100%;
+            left: 120px;
+        }
+    }
+    .centralizado .card-body{
+        width: 17rem;
+        height: 170px;
+        animation: BackAnimationBody 1s ease-in-out;
+    }
+    .centralizado{
+        width: 17rem;
+        height: 250px;
+        flex: 0 0 auto;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+    .centralizado .card-img-top{
+        width: 17rem;
+        height: 80px;
         animation: BackAnimationImg 1s ease-in-out;
     }
     @keyframes BackAnimationBody {
@@ -219,17 +290,17 @@
             height: 55px;
         }
         100% {
-            height: 150px;
+            height: 170px;
         }
     }
     @keyframes BackAnimationImg {
         0% {
             opacity: 30%;
-            height: 150px;
+            height: 195px;
         }
         100% {
             opacity: 100%;
-            height: 10px;
+            height: 80px;
         }
     }
 }
