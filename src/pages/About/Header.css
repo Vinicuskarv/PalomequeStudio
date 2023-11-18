@@ -19,7 +19,7 @@
     position: relative;
     top: 150px;
     z-index: 2;
-    padding: 170px 50px 50px 50px;
+    padding: 200px 50px 50px 50px;
     background-color: rgb(255, 255, 255);
 }
 .CampoSection h2{
@@ -66,14 +66,20 @@
     z-index: 3;
     margin-top: 40px;
 }
-.Campfrase{
+.Campfeedback{
     text-align: center;
-    padding: 50px 50px 0 50px;
+    padding: 35px 0 0 0;
     top: 150px;
     position: relative;
 }
-.Campfrase h3{
+.Campfeedback h3{
     font-family: 'Averia Sans Libre', sans-serif;
+}
+.feedback{
+    padding: 10px;
+    margin: 4px auto;
+    max-width: 310px;
+    background: linear-gradient(to right, #5ddfe635, #004bad2f);
 }
 @media screen and (max-width:1100px){
     .ContainerCondulta,.CampoCondulta{

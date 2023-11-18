@@ -51,12 +51,8 @@ function Header() {
                             <label>@studiopalomeque</label>
                         </div>
                         <div className='col-md-6 col-12'>
-                            <Link to="/" className='IconLink'><img className="Icon" src={emailIcon} alt="Email Icon"/></Link>
-                            <label>studiopalomeque@gmai.coml</label>
-                        </div>
-                        <div className='col-12'>
                             <Link to="/" className='IconLink'><img className="Icon" src={addressIcon} alt="Address Icon"/></Link>
-                            <label>R. do Século 54 Loja, 4490-582 <span>Póvoa de Varzim</span></label>
+                            <label>R. do Século 54 Loja, 4490-582</label>
                         </div>
                     </div>
                 </div>
@@ -135,17 +131,12 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <div style={styles.footer}>
+            <div className='footerstyle'>
                 <FooterContain/>
             </div>
             
         </div>
     );
   }
-  const styles = {
-    footer: {
-        position: 'relative',
-        top: '300px',
-    }
-}
+
   export default Header;

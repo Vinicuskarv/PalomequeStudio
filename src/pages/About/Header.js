@@ -34,21 +34,21 @@ function Header() {
                 <img src={Icon3} alt="Icons" />
                 <h5>CONFIANÇA</h5>
                 <p>
-                  A confiança é o alicerce das relações humanas, construída com honestidade e mantida com lealdade.
+                  Conquistamos confiança através de serviços de qualidade e atendimento personalizado, garantindo satisfação e fidelidade dos clientes.
                 </p>
             </div>
             <div>
                 <img src={Icon1} alt="Icons" />
                 <h5>ÉTICA</h5>
                 <p>
-                  A ética é o farol que guia nossas decisões, orientando-nos na busca pelo que é correto e justo.
+                  Comprometemo-nos com integridade, transparência e tratamento justo, proporcionando um serviço profissional e respeitoso a cada cliente.
                 </p>
             </div>
             <div>
                 <img src={Icon2} alt="Icons" />
                 <h5>CREDIBILIDADE</h5>
                 <p>
-                  A credibilidade é um ativo valioso, conquistado com integridade e consistência ao longo do tempo
+                  Nossa equipe qualificada, práticas higiênicas rigorosas e o uso de produtos de qualidade refletem nosso compromisso com a confiança e satisfação dos clientes.
                 </p>
             </div>
           </div>
@@ -92,13 +92,26 @@ function Header() {
             />
           </div>
         </div>
-          <div className='Campfrase'>
-            <h3>"Não espere por circunstâncias ideais, faça<br/> acontecer com as circunstâncias que você tem." </h3>
-            <p>- Bruce Lee</p>
-            <ButtonMaster
-              value= "Meu trabalho"
-              nameclass= "buttonNormal"
-            />
+          <div className='Campfeedback row'>
+            <div className='feedback col-md-12'>
+              <p>Eu fiquei super satisfeita! Fiz unha em gel e a depilação das axilas. Estava super insegura por ter sido minha primeira experiência com depilação aqui em Portugal. Recomendo com certeza!</p>
+              <h3>Elizete Lopes, Porto</h3>
+            </div>
+            <div className='feedback col-md-12'>
+              <p>Atendimento super simpático, ambiente super agradável e de bom aspecto, serviço ótimo e pontual.</p>
+              <h3>Beatriz Simões, Porto</h3>
+            </div>
+            <div className='feedback col-md-12'>
+              <p>Adorei o serviço🤩
+                Pessoal muito profissional, simpático e bem educado.
+                Fiz o alisamento orgânico e corte bordado e estou muito satisfeita 💯
+                Obrigada.
+              </p>
+              <h3>Santa Lazda, Porto</h3>
+            </div><div className='feedback col-md-12'>
+              <p>Coloquei mega  com a Cris adorei o serviço e sem falar no corte e madeixas que a Andréia faz bom super indico esse salão ótimos profissionais as unhas 💅🏻 também são maravilhosas 😘😘</p>
+              <h3>Nadia pereira, Porto</h3>
+            </div>
           </div>
           <FooterContain/>
       </div>
