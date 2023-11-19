@@ -21,6 +21,7 @@ function Header() {
                 <ButtonMaster
                   value= "Reserve seu horário"
                   nameclass= "buttonNormal"
+                  linck= "https://zappysoftware.com/m/studiopalomeque#find"
                 />
               </div>
             </div>        
@@ -32,8 +33,6 @@ function Header() {
                 <li><img src={iconsCheck} style={styles.icon} alt="icons Check"/>20+Areas de atuação</li>
               </ul>
               <div className='container-fluid campoCarroselCards'>
-                <h2>Studio Palomeque</h2>
-                <h6>Principais Atividades</h6>
                 <Overflow/>
               </div>
               <div>
@@ -54,6 +53,7 @@ function Header() {
                 <ButtonMaster
                   value= "Meu trabalho"
                   nameclass= "buttonNormal"
+                  linck= "/About"
                   />
               </div>
             </div>

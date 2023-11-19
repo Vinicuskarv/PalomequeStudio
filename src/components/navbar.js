@@ -17,7 +17,7 @@ function NavBar({home, sobre, contactos}) {
                   <Link to="/Contactos">{contactos}</Link> 
                 </li>
                 <li>
-                  <Link to="/Contact">Marcação</Link> 
+                  <Link to="https://zappysoftware.com/m/studiopalomeque#find">Marcação</Link> 
                 </li>
             </ul>
       </div>

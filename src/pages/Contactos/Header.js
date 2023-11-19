@@ -29,6 +29,7 @@ function Header() {
                 <ButtonMaster
                     value= "Marcação"
                     nameclass= "buttonNormal"
+                    linck= "https://zappysoftware.com/m/studiopalomeque#find"
                 />
                 </div>
             </div> 
@@ -51,7 +52,7 @@ function Header() {
                             <label>@studiopalomeque</label>
                         </div>
                         <div className='col-md-6 col-12'>
-                            <Link to="/" className='IconLink'><img className="Icon" src={addressIcon} alt="Address Icon"/></Link>
+                            <Link to="https://www.google.com/maps/place/41%C2%B022'31.8%22N+8%C2%B045'34.6%22W/@41.3755,-8.7621749,17z/data=!3m1!4b1!4m4!3m3!8m2!3d41.3755!4d-8.7596?entry=ttu" className='IconLink'><img className="Icon" src={addressIcon} alt="Address Icon"/></Link>
                             <label>R. do Século 54 Loja, 4490-582</label>
                         </div>
                     </div>
@@ -68,6 +69,8 @@ function Header() {
                     <ButtonMaster
                         value= "Localização"
                         nameclass= "buttonOutline"
+                        linck= "https://www.google.com/maps/place/41%C2%B022'31.8%22N+8%C2%B045'34.6%22W/@41.3755,-8.7621749,17z/data=!3m1!4b1!4m4!3m3!8m2!3d41.3755!4d-8.7596?entry=ttu"
+
                     />
                 </div>
             </div>

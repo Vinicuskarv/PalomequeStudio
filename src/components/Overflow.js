@@ -10,43 +10,29 @@ import img4 from '../components/img/ServiceMassagem.jpg';
 import img5 from '../components/img/ServiceSobrancelhas.jpg';
 
 const App = () => {
-  const containerRef = useRef(null);
-
-  const scrollLeft = () => {
-    const container = containerRef.current;
-    if (container) {
-      container.scrollBy({
-        left: -250,
-        behavior: 'smooth',
-      });
-    }
-  };
-
-  const scrollRight = () => {
-    const container = containerRef.current;
-    if (container) {
-      container.scrollBy({
-        left: 250,
-        behavior: 'smooth',
-      });
-    }
-  };
 
   return (
-    <div className="card-container">
-      <button className="scroll-button left" onClick={scrollLeft}>
-        <img src={iconArrow}  alt="icons icon Arrow" />
-      </button>
-      <div className="cards" ref={containerRef}>
-        <Card title="Massagem Mãos e Pês" content="Conteúdo do Card 1" Img={img4} />
-        <Card title="Laser" content="Conteúdo do Card 2" Img={img2} />
-        <Card title="Manicure" content="Reparação verniz em gel, unhas em gel manicure, Gel na tips" Img={img3} />
-        <Card title="Cera" content="Conteúdo do Card 4" Img={img1} />
-        <Card title="Sobrancelhas" content="Conteúdo do Card 5" Img={img5} />
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src={img1} alt="..."/>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src={img2} alt="..."/>
 
+        </div>
+        <div class="carousel-item">
+          <img src={img3} alt="..."/>
+
+        </div>
       </div>
-      <button className="scroll-button right" onClick={scrollRight}>
-        <img src={iconArrow}  alt="icons icon Arrow" />
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
       </button>
     </div>
   );

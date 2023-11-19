@@ -18,9 +18,8 @@ const footerContain = () => {
         <div className="campoIcons">
           <Link to="/" className="LinkIcon"><img className="Icon" src={facebookIcon} alt="Facebook Icon"/></Link>
           <Link to="/" className="LinkIcon"><img className="Icon" src={phoneIcon} alt="Phone Icon"/></Link>
-          <Link to="/" className="LinkIcon"><img className="Icon" src={emailIcon} alt="Email Icon"/></Link>
           <Link to="/" className="LinkIcon"><img className="Icon" src={instagramIcon} alt="Instagram Icon"/></Link>
-          <Link to="/" className="LinkIcon"><img className="Icon" src={addressIcon} alt="Address Icon"/></Link>
+          <Link to="https://www.google.com/maps/place/41%C2%B022'31.8%22N+8%C2%B045'34.6%22W/@41.3755,-8.7621749,17z/data=!3m1!4b1!4m4!3m3!8m2!3d41.3755!4d-8.7596?entry=ttu" className="LinkIcon"><img className="Icon" src={addressIcon} alt="Address Icon"/></Link>
         </div>
       </div>
     );

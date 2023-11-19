@@ -25,6 +25,7 @@ function Header() {
             <ButtonMaster
               value= "Marcação"
               nameclass= "buttonNormal"
+              linck= "https://zappysoftware.com/m/studiopalomeque#find"
             />
         </div>
         <div className='CampoCondulta'>
@@ -89,6 +90,7 @@ function Header() {
             <ButtonMaster
               value= "Meu trabalho"
               nameclass= "buttonOutline"
+              linck= "https://zappysoftware.com/m/studiopalomeque#find"
             />
           </div>
         </div>
