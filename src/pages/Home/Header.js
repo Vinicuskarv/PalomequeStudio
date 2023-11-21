@@ -32,7 +32,7 @@ function Header() {
                 <li><img src={iconsCheck} style={styles.icon} alt="icons Check"/>7+Certificados</li>
                 <li><img src={iconsCheck} style={styles.icon} alt="icons Check"/>20+Areas de atuação</li>
               </ul>
-              <div className='container-fluid campoCarroselCards'>
+              <div className='container campoCarroselCards'>
                 <Overflow/>
               </div>
               <div>
