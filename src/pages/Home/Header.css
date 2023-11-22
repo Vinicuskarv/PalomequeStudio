@@ -119,7 +119,8 @@
     top: -2px;
 }
 .campoCarroselCards{
-    padding: 0;
+    padding: 0 !important;
+    margin-bottom: 15px;
     background-color: rgb(255, 255, 255);
     padding-bottom: 50px;
     z-index: 2;

@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import Card from './cardOverflow';
 import './Overflow.css';
+import ButtonMaster from '../components/buttonMaster';
+
 import iconArrow from './icons/icons8-arrow-30.png';
 
 import img1 from '../components/img/ServiceDepilacaoCera.jpg';
@@ -19,8 +21,16 @@ const App = () => {
             <div className='col-6'>
               <img src={img1} alt="..."/>
             </div>
-            <div className='col-6'>
-              oi
+            <div className='col-6 infoCarousel'>
+            <h5>Depilação a Cera</h5>
+            <p>
+              Experimente a suavidade duradoura da depilação com cera em nosso espaço dedicado à sua beleza.
+            </p>
+            <ButtonMaster
+                  value= "Reserve seu horário"
+                  nameclass= "buttonWhite"
+                  linck= "https://zappysoftware.com/m/studiopalomeque#find"
+                />
             </div>
           </div>
           
@@ -30,8 +40,16 @@ const App = () => {
             <div className='col-6'>
               <img src={img2} alt="..."/>
             </div>
-            <div className='col-6'>
-              oi
+            <div className='col-6 infoCarousel'>
+              <h5>Depilação a Laser</h5>
+              <p>
+              Despeça-se dos pelos indesejados com nossos serviços de depilação a laser. 
+              </p>
+              <ButtonMaster
+                  value= "Reserve seu horário"
+                  nameclass= "buttonWhite"
+                  linck= "https://zappysoftware.com/m/studiopalomeque#find"
+                />
             </div>
           </div>
 
@@ -41,8 +59,16 @@ const App = () => {
             <div className='col-6'>
               <img src={img3} alt="..."/>
             </div>
-            <div className='col-6'>
-              oi
+            <div className='col-6 infoCarousel'>
+              <h5>Manicure</h5>
+            <p>
+              Oferecemos serviços personalizados que vão além do cuidado básico, transformando suas unhas em expressões autênticas de estilo.
+              </p>
+              <ButtonMaster
+                  value= "Reserve seu horário"
+                  nameclass= "buttonWhite"
+                  linck= "https://zappysoftware.com/m/studiopalomeque#find"
+                />
             </div>
           </div>
 

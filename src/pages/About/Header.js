@@ -35,21 +35,21 @@ function Header() {
                 <img src={Icon3} alt="Icons" />
                 <h5>CONFIANÇA</h5>
                 <p>
-                  Conquistamos confiança através de serviços de qualidade e atendimento personalizado, garantindo satisfação e fidelidade dos clientes.
+                  Conquistamos confiança através de serviços de qualidade.
                 </p>
             </div>
             <div>
                 <img src={Icon1} alt="Icons" />
                 <h5>ÉTICA</h5>
                 <p>
-                  Comprometemo-nos com integridade, transparência e tratamento justo, proporcionando um serviço profissional e respeitoso a cada cliente.
+                  Comprometemo-nos com integridade, transparência e tratamento justo.
                 </p>
             </div>
             <div>
                 <img src={Icon2} alt="Icons" />
                 <h5>CREDIBILIDADE</h5>
                 <p>
-                  Nossa equipe qualificada, práticas higiênicas rigorosas e o uso de produtos de qualidade refletem nosso compromisso com a confiança e satisfação dos clientes.
+                  Nossa equipe qualificada, práticas higiênicas rigorosas e o uso de produtos de qualidade.
                 </p>
             </div>
           </div>

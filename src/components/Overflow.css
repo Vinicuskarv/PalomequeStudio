@@ -1,8 +1,17 @@
 #carouselExampleInterval .carousel-item img{
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 0 15px 15px 0;
 }
 .btn{
     border: none;
     background-color: none;
+    border-radius: none;
+}
+.infoCarousel{
+    padding: 50px;
+    background: linear-gradient(to right,  #517796,#1077a6);
+    color: aliceblue;
+    border-radius: 15px;
 }
