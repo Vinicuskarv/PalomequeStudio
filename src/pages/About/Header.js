@@ -96,22 +96,22 @@ function Header() {
         </div>
           <div className='Campfeedback row'>
             <div className='feedback col-md-12'>
-              <p>Eu fiquei super satisfeita! Fiz unha em gel e a depilação das axilas. Estava super insegura por ter sido minha primeira experiência com depilação aqui em Portugal. Recomendo com certeza!</p>
+              <p>"Eu fiquei super satisfeita! Fiz unha em gel e a depilação das axilas. Estava super insegura por ter sido minha primeira experiência com depilação aqui em Portugal. Recomendo com certeza!"</p>
               <h3>Elizete Lopes, Porto</h3>
             </div>
             <div className='feedback col-md-12'>
-              <p>Atendimento super simpático, ambiente super agradável e de bom aspecto, serviço ótimo e pontual.</p>
+              <p>"Atendimento super simpático, ambiente super agradável e de bom aspecto, serviço ótimo e pontual."</p>
               <h3>Beatriz Simões, Porto</h3>
             </div>
             <div className='feedback col-md-12'>
-              <p>Adorei o serviço🤩
+              <p>"Adorei o serviço🤩
                 Pessoal muito profissional, simpático e bem educado.
                 Fiz o alisamento orgânico e corte bordado e estou muito satisfeita 💯
-                Obrigada.
+                Obrigada."
               </p>
               <h3>Santa Lazda, Porto</h3>
             </div><div className='feedback col-md-12'>
-              <p>Coloquei mega  com a Cris adorei o serviço e sem falar no corte e madeixas que a Andréia faz bom super indico esse salão ótimos profissionais as unhas 💅🏻 também são maravilhosas 😘😘</p>
+              <p>"Coloquei mega  com a Cris adorei o serviço e sem falar no corte e madeixas que a Andréia faz bom super indico esse salão ótimos profissionais as unhas 💅🏻 também são maravilhosas 😘😘"</p>
               <h3>Nadia pereira, Porto</h3>
             </div>
           </div>

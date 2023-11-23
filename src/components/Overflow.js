@@ -23,8 +23,14 @@ const App = () => {
         <div class="card col-6 modelCard">
           <img src={img1} class="card-img-top" alt="..."/>
           <div class="card-body">
+           
             <h5 class="card-title">______</h5>
             <p class="card-text">Depilação a Cera</p>
+            <ButtonMaster
+              value= "Info"
+              nameclass= "buttonWhite"
+              linck= "/About"
+            />
           </div>
         </div>
         <div class="card col-6 modelCard modelCardCentro">
@@ -32,6 +38,11 @@ const App = () => {
           <div class="card-body">
             <h5 class="card-title">______</h5>
             <p class="card-text">Depilação a Laser</p>
+            <ButtonMaster
+              value= "Info"
+              nameclass= "buttonWhite"
+              linck= "/About"
+            />
           </div>
         </div>
         <div class="card col-6 modelCard">
@@ -39,6 +50,11 @@ const App = () => {
           <div class="card-body">
             <h5 class="card-title">______</h5>
             <p class="card-text">Manicure e Pedicure</p>
+            <ButtonMaster
+              value= "Info"
+              nameclass= "buttonWhite"
+              linck= "/About"
+            />
           </div>
         </div>
       </div>

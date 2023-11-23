@@ -48,6 +48,7 @@ function Card({ Img, titulo, texto}) {
           <ButtonMaster
             value= "Marcação"
             nameclass= "buttonOutlelineCard"
+            linck= "https://zappysoftware.com/m/studiopalomeque#find"
           />
         </div>  
     </div>
