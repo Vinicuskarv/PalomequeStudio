@@ -167,19 +167,25 @@
     text-align: center;
     padding: 50px;
 }
+@media screen and (max-width:991px){
+    .containerMulherInfo{
+        top: 997px;
+    }
+}
 @media screen and (max-width:920px){
     .containerMulherInfo{
         width: 400px;
     }
 }
-@media screen and (max-width:650px){
-    .containerMulherInfo{
-        top: 600px;
-    }
-}
+
 @media screen and (max-width:850px){
     .containerMulherInfo{
         width: 380px;
+    }
+}
+@media screen and (max-width:767px){
+    .containerMulherInfo{
+        top: 1368px;
     }
 }
 @media screen and (max-width: 700px){
@@ -188,6 +194,11 @@
     }
     .containerMulherInfo{
         width: 100%;
+    }
+}
+@media screen and (max-width:650px){
+    .containerMulherInfo{
+        top: 1345px;
     }
 }
 @media screen and (max-width:535px){
@@ -200,7 +211,7 @@
 }
 @media screen and (max-width:480px){
     .containerMulherInfo{
-        top: 530px;
+        top: 1344px;
     }
 }
 @media screen and (max-width:435px){

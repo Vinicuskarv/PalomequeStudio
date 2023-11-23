@@ -1,17 +1,42 @@
-#carouselExampleInterval .carousel-item img{
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.ContainerCardsHome{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 47px 0 77px 0;
+}
+.modelCard{
+    width: 18rem;
+    height: auto;
+    padding: 0;
+    text-align: center;
+    border-radius: 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.267);
+    margin-top: 30px;
+}
+.modelCard img{
     width: 100%;
-    height: 350px;
+    height: 250px; 
     object-fit: cover;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0;
+    
 }
-.btn{
-    border: none;
-    background-color: none;
-    border-radius: none;
+.modelCardCentro{
+    top: -15px;
 }
-.infoCarousel{
-    padding: 50px;
-    background: linear-gradient(to right,  #517796,#1077a6);
-    color: aliceblue;
-    border-radius: 15px;
+.modelCard p{
+    font-family: 'Playfair Display', serif;
+
+}
+.txtContainerCardsHome{
+    text-align: center;
+    margin-top: 30px;
+}
+.txtContainerCardsHome h3{
+    font-family: 'Playfair Display', serif;
+}
+@media screen and (max-width:991px){
+    .modelCardCentro{
+        top: 0px;
+    }
 }
