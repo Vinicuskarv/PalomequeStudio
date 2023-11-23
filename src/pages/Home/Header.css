@@ -185,7 +185,7 @@
 }
 @media screen and (max-width:767px){
     .containerMulherInfo{
-        top: 1399px;
+        top: 1398px;
     }
 }
 @media screen and (max-width: 700px){
@@ -211,7 +211,7 @@
 }
 @media screen and (max-width:480px){
     .containerMulherInfo{
-        top: 1375px;
+        top: 1374px;
     }
     .ImgbackgroudTop{
         height: 500px !important;
