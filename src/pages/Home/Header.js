@@ -44,6 +44,7 @@ function Header() {
                   <ButtonMaster
                   value= "Meu trabalho"
                   nameclass= "buttonOutline"
+                  linck= "/About"
                   />
                 </div>
               </div>
